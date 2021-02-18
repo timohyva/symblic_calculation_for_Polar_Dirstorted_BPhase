@@ -1,0 +1,1533 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     51517,       1524]
+NotebookOptionsPosition[     50045,       1475]
+NotebookOutlinePosition[     50410,       1491]
+CellTagsIndexPosition[     50367,       1488]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{"\[Theta]", "[", 
+    RowBox[{
+     RowBox[{"xp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}], ",", 
+     RowBox[{"yp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}]}], "]"}], ",", "x"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"%", "//", "TraditionalForm"}], "\[IndentingNewLine]", 
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{"\[Theta]", "[", 
+    RowBox[{
+     RowBox[{"xp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}], ",", 
+     RowBox[{"yp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}]}], "]"}], ",", "y"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"%", "//", "TraditionalForm"}]}], "Input",
+ CellChangeTimes->{{3.772861009442861*^9, 3.772861059110778*^9}, {
+  3.772861094997027*^9, 3.772861105069995*^9}, {3.772861918830597*^9, 
+  3.772861923558058*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["\[Theta]", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"0", ",", "1"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{
+     RowBox[{"xp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}], ",", 
+     RowBox[{"yp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}]}], "]"}], " ", 
+   RowBox[{
+    SuperscriptBox["yp", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"x", ",", "y"}], "]"}]}], "+", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["xp", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"x", ",", "y"}], "]"}], " ", 
+   RowBox[{
+    SuperscriptBox["\[Theta]", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{
+     RowBox[{"xp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}], ",", 
+     RowBox[{"yp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}]}], "]"}]}]}]], "Output",
+ CellChangeTimes->{3.7728610603259287`*^9, 3.7728611057225313`*^9, 
+  3.772861924774789*^9}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["xp", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"1", ",", "0"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{"x", ",", "y"}], ")"}], " ", 
+    RowBox[{
+     SuperscriptBox["\[Theta]", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"1", ",", "0"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{
+      RowBox[{"xp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}], ",", 
+      RowBox[{"yp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}]}], ")"}]}], "+", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["yp", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"1", ",", "0"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{"x", ",", "y"}], ")"}], " ", 
+    RowBox[{
+     SuperscriptBox["\[Theta]", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"0", ",", "1"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{
+      RowBox[{"xp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}], ",", 
+      RowBox[{"yp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}]}], ")"}]}]}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.7728610603259287`*^9, 3.7728611057225313`*^9, 
+  3.77286192477808*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["yp", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"0", ",", "1"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"x", ",", "y"}], "]"}], " ", 
+   RowBox[{
+    SuperscriptBox["\[Theta]", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"0", ",", "1"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{
+     RowBox[{"xp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}], ",", 
+     RowBox[{"yp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}]}], "]"}]}], "+", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["xp", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"0", ",", "1"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"x", ",", "y"}], "]"}], " ", 
+   RowBox[{
+    SuperscriptBox["\[Theta]", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{
+     RowBox[{"xp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}], ",", 
+     RowBox[{"yp", "[", 
+      RowBox[{"x", ",", "y"}], "]"}]}], "]"}]}]}]], "Output",
+ CellChangeTimes->{3.7728610603259287`*^9, 3.7728611057225313`*^9, 
+  3.772861924780805*^9}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["xp", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"0", ",", "1"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{"x", ",", "y"}], ")"}], " ", 
+    RowBox[{
+     SuperscriptBox["\[Theta]", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"1", ",", "0"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{
+      RowBox[{"xp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}], ",", 
+      RowBox[{"yp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}]}], ")"}]}], "+", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["yp", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"0", ",", "1"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{"x", ",", "y"}], ")"}], " ", 
+    RowBox[{
+     SuperscriptBox["\[Theta]", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"0", ",", "1"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "(", 
+     RowBox[{
+      RowBox[{"xp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}], ",", 
+      RowBox[{"yp", "(", 
+       RowBox[{"x", ",", "y"}], ")"}]}], ")"}]}]}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.7728610603259287`*^9, 3.7728611057225313`*^9, 
+  3.772861924783465*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["x", "3"], " ", 
+    SuperscriptBox["y", "2"], " ", 
+    RowBox[{"(", 
+     RowBox[{"x", "+", "y"}], ")"}]}], ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7728613238703938`*^9, 3.772861345673233*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SuperscriptBox["x", "3"], " ", 
+   SuperscriptBox["y", "2"]}], "+", 
+  RowBox[{"3", " ", 
+   SuperscriptBox["x", "2"], " ", 
+   SuperscriptBox["y", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{"x", "+", "y"}], ")"}]}]}]], "Output",
+ CellChangeTimes->{3.772861346659581*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{
+   "xp", ",", "yp", ",", "x", ",", "y", ",", "\[Phi]t", ",", "\[Theta]", ",", 
+    "fpolar"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+   "\"\<Rotation of the free energy density of Polar phase with Branch Cut \
+HQV, the rotaed state \[Theta]'[x,y] just simplely equal to \[Theta][xp,yp]. \
+(xp,yp)=\!\(\*SuperscriptBox[\(R\), \(-1\)]\) (x,y)\>\"", ",", "18", ",", 
+    "Red"}], "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"xp", "=", 
+   RowBox[{
+    RowBox[{"x", " ", 
+     RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+    RowBox[{"y", " ", 
+     RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"yp", "=", 
+   RowBox[{
+    RowBox[{"y", " ", 
+     RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+    RowBox[{"x", " ", 
+     RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"fpolar", "=", 
+  RowBox[{
+   RowBox[{
+    FractionBox["1", "2"], 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"D", "[", 
+        RowBox[{
+         RowBox[{"\[Theta]", "[", 
+          RowBox[{"xp", ",", "yp"}], "]"}], ",", "x"}], "]"}], " ", 
+       RowBox[{"D", "[", 
+        RowBox[{
+         RowBox[{"\[Theta]", "[", 
+          RowBox[{"xp", ",", "yp"}], "]"}], ",", "x"}], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"D", "[", 
+        RowBox[{
+         RowBox[{"\[Theta]", "[", 
+          RowBox[{"xp", ",", "yp"}], "]"}], ",", "y"}], "]"}], " ", 
+       RowBox[{"D", "[", 
+        RowBox[{
+         RowBox[{"\[Theta]", "[", 
+          RowBox[{"xp", ",", "yp"}], "]"}], ",", "y"}], "]"}]}]}], ")"}]}], 
+   "-", 
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"2", " ", 
+      SuperscriptBox["\[Xi]d", "2"]}]], " ", 
+    RowBox[{"Cos", "[", 
+     RowBox[{"2", " ", 
+      RowBox[{"\[Theta]", "[", 
+       RowBox[{"xp", ",", "yp"}], "]"}]}], "]"}]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"Simplify", "[", 
+  RowBox[{"fpolar", ",", 
+   RowBox[{"Assumptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y", ",", "\[Phi]t"}], "}"}], "\[Element]", 
+      "Reals"}], "}"}]}]}], "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.7728635608704357`*^9, 3.772863833489142*^9}, {
+  3.772863879350276*^9, 3.772863889115258*^9}, {3.772876761317831*^9, 
+  3.772876838048839*^9}, {3.772877089090353*^9, 3.7728771162928677`*^9}, {
+  3.772877164681958*^9, 3.772877190008381*^9}, {3.772877536340036*^9, 
+  3.772877586682231*^9}, {3.772877913334386*^9, 3.772877977618147*^9}, {
+  3.772878020355345*^9, 3.772878030178933*^9}, {3.772878625491693*^9, 
+  3.772878668719549*^9}}],
+
+Cell[BoxData[
+ StyleBox["\<\"Rotation of the free energy density of Polar phase with Branch \
+Cut HQV, the rotaed state \[Theta]'[x,y] just simplely equal to \
+\[Theta][xp,yp]. (xp,yp)=\\!\\(\\*SuperscriptBox[\\(R\\), \\(-1\\)]\\) \
+(x,y)\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->18,
+  FontColor->RGBColor[1, 0, 0]]], "Print",
+ CellChangeTimes->{3.7728786703186483`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"2", " ", 
+      SuperscriptBox["\[Xi]d", "2"]}]], 
+    RowBox[{"Cos", "[", 
+     RowBox[{"2", " ", 
+      RowBox[{"\[Theta]", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", " ", 
+          RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+         RowBox[{"y", " ", 
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+        RowBox[{
+         RowBox[{"y", " ", 
+          RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+         RowBox[{"x", " ", 
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "]"}]}]}], "+", 
+  RowBox[{
+   FractionBox["1", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}]}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "+", 
+        RowBox[{
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}]}], ")"}], 
+      "2"], "+", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "+", 
+        RowBox[{
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}]}], ")"}], 
+      "2"]}], ")"}]}]}]], "Output",
+ CellChangeTimes->{3.772878670322096*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", 
+     RowBox[{
+      FractionBox["1", 
+       SuperscriptBox["\[Xi]d", "2"]], 
+      RowBox[{"Cos", "[", 
+       RowBox[{"2", " ", 
+        RowBox[{"\[Theta]", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"x", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+           RowBox[{"y", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+          RowBox[{
+           RowBox[{"y", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+           RowBox[{"x", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "]"}]}]}], 
+    "+", 
+    SuperscriptBox[
+     RowBox[{
+      SuperscriptBox["\[Theta]", 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"0", ",", "1"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"x", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+        RowBox[{"y", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+       RowBox[{
+        RowBox[{"y", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+        RowBox[{"x", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "2"], "+", 
+    SuperscriptBox[
+     RowBox[{
+      SuperscriptBox["\[Theta]", 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"1", ",", "0"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"x", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+        RowBox[{"y", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+       RowBox[{
+        RowBox[{"y", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+        RowBox[{"x", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "2"]}], 
+   ")"}]}]], "Output",
+ CellChangeTimes->{3.772878670324197*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{
+   "xp", ",", "yp", ",", "x", ",", "y", ",", "\[Phi]t", ",", "\[Theta]", ",", 
+    "\[Gamma]1", ",", "\[Gamma]2", ",", "\[Gamma]3", ",", "fPdB"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+   "\"\<Rotation of the free energy density of PdB phase with Branch Cut HQV, \
+the rotaed state \[Theta]'[x,y] just simplely equal to \[Theta][xp,yp]. \
+(xp,yp)=\!\(\*SuperscriptBox[\(R\), \(-1\)]\) (x,y)\>\"", ",", "18", ",", 
+    "Red"}], "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"xp", "=", 
+   RowBox[{
+    RowBox[{"x", " ", 
+     RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+    RowBox[{"y", " ", 
+     RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"yp", "=", 
+    RowBox[{
+     RowBox[{"y", " ", 
+      RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+     RowBox[{"x", " ", 
+      RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], ";"}], 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     OverscriptBox["r", "->"], "'"}], "=", 
+    RowBox[{
+     SuperscriptBox["R", 
+      RowBox[{"-", "1"}]], 
+     OverscriptBox["r", "->"]}]}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"fPdB", "=", 
+   RowBox[{
+    RowBox[{
+     FractionBox["1", "2"], " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Gamma]1", "+", 
+       RowBox[{"2", "\[Gamma]2"}]}], ")"}], " ", 
+     RowBox[{"D", "[", 
+      RowBox[{
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{"xp", ",", "yp"}], "]"}], ",", "x"}], "]"}], " ", 
+     RowBox[{"D", "[", 
+      RowBox[{
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{"xp", ",", "yp"}], "]"}], ",", "x"}], "]"}]}], "+", 
+    RowBox[{
+     FractionBox["1", "2"], " ", 
+     RowBox[{"(", "\[Gamma]1", ")"}], " ", 
+     RowBox[{"D", "[", 
+      RowBox[{
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{"xp", ",", "yp"}], "]"}], ",", "y"}], "]"}], " ", 
+     RowBox[{"D", "[", 
+      RowBox[{
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{"xp", ",", "yp"}], "]"}], ",", "y"}], "]"}]}], "-", 
+    RowBox[{
+     FractionBox["1", 
+      RowBox[{"2", " ", 
+       SuperscriptBox["\[Xi]d", "2"]}]], " ", 
+     RowBox[{"Cos", "[", 
+      RowBox[{"2", " ", 
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{"xp", ",", "yp"}], "]"}]}], "]"}]}], "-", 
+    RowBox[{
+     FractionBox["\[Gamma]3", 
+      SuperscriptBox["\[Xi]d", "2"]], " ", 
+     RowBox[{"Sin", "[", 
+      RowBox[{"\[Theta]", "[", 
+       RowBox[{"xp", ",", "yp"}], "]"}], "]"}]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Simplify", "[", 
+  RowBox[{"fPdB", ",", 
+   RowBox[{"Assumptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "x", ",", "y", ",", "\[Phi]t", ",", "\[Gamma]1", ",", "\[Gamma]2", 
+         ",", "\[Gamma]3"}], "}"}], "\[Element]", "Reals"}], "&&", 
+      RowBox[{"\[Gamma]1", ">", "0"}], "&&", 
+      RowBox[{"\[Gamma]2", ">", "0"}]}], "}"}]}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+   "\"\<\[Gamma]1=1, \[Gamma]2=0, \[Gamma]3=0. fPdB reduces to polar phase:\>\
+\"", ",", "16", ",", "Red"}], "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Simplify", "[", 
+  RowBox[{
+   RowBox[{"fPdB", "/.", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\[Gamma]2", "\[Rule]", "0"}], ",", 
+      RowBox[{"\[Gamma]3", "\[Rule]", "0"}], ",", 
+      RowBox[{"\[Gamma]1", "\[Rule]", "1"}]}], "}"}]}], ",", 
+   RowBox[{"Assumptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "x", ",", "y", ",", "\[Phi]t", ",", "\[Gamma]1", ",", "\[Gamma]2", 
+         ",", "\[Gamma]3"}], "}"}], "\[Element]", "Reals"}], "&&", 
+      RowBox[{"\[Gamma]1", ">", "0"}], "&&", 
+      RowBox[{"\[Gamma]2", ">", "0"}]}], "}"}]}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+   "\"\<Collect the (\[Gamma]1+2\[Gamma]2) terms:\>\"", ",", "16", ",", 
+    "Red"}], "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Collect", "[", 
+  RowBox[{"fPdB", ",", 
+   RowBox[{"\[Gamma]1", "+", 
+    RowBox[{"2", " ", "\[Gamma]2"}]}], ",", "Simplify"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+   "\"\<Collect the \[Gamma]1 terms wth \[Gamma]2 vanishs:\>\"", ",", "16", 
+    ",", "Red"}], "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Collect", "[", 
+  RowBox[{
+   RowBox[{"fPdB", "/.", 
+    RowBox[{"\[Gamma]2", "\[Rule]", "0"}]}], ",", "\[Gamma]1", ",", 
+   "Simplify"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+   "\"\<Collect the (\[Gamma]1+2\[Gamma]2) terms: Check How fPdB reduces for \
+Null-rotation \[Phi]t=0: The result actually is the fPdB without \[Theta] \
+ratation: \>\"", ",", "16", ",", "Red"}], "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Collect", "[", 
+   RowBox[{
+    RowBox[{"fPdB", "/.", 
+     RowBox[{"{", 
+      RowBox[{"\[Phi]t", "\[Rule]", "0"}], "}"}]}], ",", 
+    RowBox[{"\[Gamma]1", "+", 
+     RowBox[{"2", " ", "\[Gamma]2"}]}], ",", "Simplify"}], "]"}], 
+  "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.772864596640258*^9, 3.772864729022366*^9}, {
+   3.772870084608135*^9, 3.7728701018294487`*^9}, {3.772871306340016*^9, 
+   3.772871357605515*^9}, {3.772871418566209*^9, 3.772871436699519*^9}, {
+   3.772878147768395*^9, 3.772878175418929*^9}, {3.7728783253152514`*^9, 
+   3.772878422601832*^9}, {3.772878554057137*^9, 3.772878614631565*^9}, {
+   3.772878704522093*^9, 3.772878760356876*^9}, {3.77287879624014*^9, 
+   3.772878836610093*^9}, {3.772880685886882*^9, 3.772880689110827*^9}, {
+   3.772880859576008*^9, 3.772880907209704*^9}, {3.77288127339583*^9, 
+   3.772881426732004*^9}, {3.772881524220591*^9, 3.772881527297866*^9}, {
+   3.772881642558321*^9, 3.772881652514935*^9}, {3.772881781722301*^9, 
+   3.7728818216756067`*^9}, {3.772882190444913*^9, 3.772882217040346*^9}, {
+   3.7728826584529533`*^9, 3.772882686538258*^9}, {3.772882745237885*^9, 
+   3.7728827591291924`*^9}, {3.772882800393869*^9, 3.772882838472801*^9}, {
+   3.772882873846752*^9, 3.772882913761291*^9}, {3.7728829453207293`*^9, 
+   3.772882980882094*^9}, {3.772884259977849*^9, 3.77288432584779*^9}, {
+   3.7728870676178417`*^9, 3.772887109964768*^9}, {3.7728875633134203`*^9, 
+   3.772887630456655*^9}, 3.772887795076874*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Rotation of the free energy density of PdB phase with Branch \
+Cut HQV, the rotaed state \[Theta]'[x,y] just simplely equal to \
+\[Theta][xp,yp]. (xp,yp)=\\!\\(\\*SuperscriptBox[\\(R\\), \\(-1\\)]\\) \
+(x,y)\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->18,
+  FontColor->RGBColor[1, 0, 0]]], "Print",
+ CellChangeTimes->{{3.7728813793565283`*^9, 3.772881427351969*^9}, {
+   3.772881528527733*^9, 3.7728815411224813`*^9}, 3.772881653377548*^9, {
+   3.772881790726809*^9, 3.77288182314615*^9}, {3.772882687255643*^9, 
+   3.772882706909569*^9}, {3.772882747320971*^9, 3.7728827610832453`*^9}, 
+   3.7728828092485027`*^9, 3.772882914687932*^9, 3.7728829818675528`*^9, 
+   3.772884326953376*^9, 3.772887593458454*^9, 3.77288779733009*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"Cos", "[", 
+       RowBox[{"2", " ", 
+        RowBox[{"\[Theta]", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"x", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+           RowBox[{"y", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+          RowBox[{
+           RowBox[{"y", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+           RowBox[{"x", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "]"}], 
+      SuperscriptBox["\[Xi]d", "2"]]}], "-", 
+    FractionBox[
+     RowBox[{"2", " ", "\[Gamma]3", " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"x", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+          RowBox[{"y", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+         RowBox[{
+          RowBox[{"y", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+          RowBox[{"x", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "]"}]}], 
+     SuperscriptBox["\[Xi]d", "2"]], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"\[Gamma]1", "+", 
+       RowBox[{"2", " ", "\[Gamma]2"}]}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "-", 
+        RowBox[{
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}]}], ")"}], 
+      "2"]}], "+", 
+    RowBox[{"\[Gamma]1", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "+", 
+        RowBox[{
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["\[Theta]", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}]}], ")"}], 
+      "2"]}]}], ")"}]}]], "Output",
+ CellChangeTimes->{{3.772881379359125*^9, 3.7728814273568*^9}, {
+   3.772881528550562*^9, 3.772881541126549*^9}, 3.772881653382173*^9, {
+   3.772881790732617*^9, 3.772881823150674*^9}, {3.772882687260127*^9, 
+   3.772882706914007*^9}, {3.772882747325287*^9, 3.772882761087962*^9}, 
+   3.772882809252447*^9, 3.772882914692498*^9, 3.7728829818725853`*^9, 
+   3.772884326957261*^9, 3.7728875934638844`*^9, 3.77288779733458*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"\[Gamma]1=1, \[Gamma]2=0, \[Gamma]3=0. fPdB reduces to polar \
+phase:\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->16,
+  FontColor->RGBColor[1, 0, 0]]], "Print",
+ CellChangeTimes->{{3.7728813793565283`*^9, 3.772881427351969*^9}, {
+   3.772881528527733*^9, 3.7728815411224813`*^9}, 3.772881653377548*^9, {
+   3.772881790726809*^9, 3.77288182314615*^9}, {3.772882687255643*^9, 
+   3.772882706909569*^9}, {3.772882747320971*^9, 3.7728827610832453`*^9}, 
+   3.7728828092485027`*^9, 3.772882914687932*^9, 3.7728829818675528`*^9, 
+   3.772884326953376*^9, 3.772887593458454*^9, 3.772887797339045*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"Cos", "[", 
+       RowBox[{"2", " ", 
+        RowBox[{"\[Theta]", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"x", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+           RowBox[{"y", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+          RowBox[{
+           RowBox[{"y", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+           RowBox[{"x", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "]"}], 
+      SuperscriptBox["\[Xi]d", "2"]]}], "+", 
+    SuperscriptBox[
+     RowBox[{
+      SuperscriptBox["\[Theta]", 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"0", ",", "1"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"x", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+        RowBox[{"y", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+       RowBox[{
+        RowBox[{"y", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+        RowBox[{"x", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "2"], "+", 
+    SuperscriptBox[
+     RowBox[{
+      SuperscriptBox["\[Theta]", 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"1", ",", "0"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"x", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+        RowBox[{"y", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+       RowBox[{
+        RowBox[{"y", " ", 
+         RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+        RowBox[{"x", " ", 
+         RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "2"]}], 
+   ")"}]}]], "Output",
+ CellChangeTimes->{{3.772881379359125*^9, 3.7728814273568*^9}, {
+   3.772881528550562*^9, 3.772881541126549*^9}, 3.772881653382173*^9, {
+   3.772881790732617*^9, 3.772881823150674*^9}, {3.772882687260127*^9, 
+   3.772882706914007*^9}, {3.772882747325287*^9, 3.772882761087962*^9}, 
+   3.772882809252447*^9, 3.772882914692498*^9, 3.7728829818725853`*^9, 
+   3.772884326957261*^9, 3.7728875934638844`*^9, 3.772887797341881*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Collect the (\[Gamma]1+2\[Gamma]2) terms:\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->16,
+  FontColor->RGBColor[1, 0, 0]]], "Print",
+ CellChangeTimes->{{3.7728813793565283`*^9, 3.772881427351969*^9}, {
+   3.772881528527733*^9, 3.7728815411224813`*^9}, 3.772881653377548*^9, {
+   3.772881790726809*^9, 3.77288182314615*^9}, {3.772882687255643*^9, 
+   3.772882706909569*^9}, {3.772882747320971*^9, 3.7728827610832453`*^9}, 
+   3.7728828092485027`*^9, 3.772882914687932*^9, 3.7728829818675528`*^9, 
+   3.772884326953376*^9, 3.772887593458454*^9, 3.772887797345703*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox["1", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Gamma]1", "+", 
+     RowBox[{"2", " ", "\[Gamma]2"}]}], ")"}], " ", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+       RowBox[{
+        SuperscriptBox["\[Theta]", 
+         TagBox[
+          RowBox[{"(", 
+           RowBox[{"0", ",", "1"}], ")"}],
+          Derivative],
+         MultilineFunction->None], "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"x", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+          RowBox[{"y", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+         RowBox[{
+          RowBox[{"y", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+          RowBox[{"x", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "-", 
+      RowBox[{
+       RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+       RowBox[{
+        SuperscriptBox["\[Theta]", 
+         TagBox[
+          RowBox[{"(", 
+           RowBox[{"1", ",", "0"}], ")"}],
+          Derivative],
+         MultilineFunction->None], "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"x", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+          RowBox[{"y", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+         RowBox[{
+          RowBox[{"y", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+          RowBox[{"x", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}]}], ")"}], 
+    "2"]}], "+", 
+  RowBox[{
+   FractionBox["1", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"Cos", "[", 
+        RowBox[{"2", " ", 
+         RowBox[{"\[Theta]", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+            RowBox[{"y", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+           RowBox[{
+            RowBox[{"y", " ", 
+             RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+            RowBox[{"x", " ", 
+             RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "]"}], 
+       SuperscriptBox["\[Xi]d", "2"]]}], "-", 
+     FractionBox[
+      RowBox[{"2", " ", "\[Gamma]3", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"\[Theta]", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"x", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+           RowBox[{"y", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+          RowBox[{
+           RowBox[{"y", " ", 
+            RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+           RowBox[{"x", " ", 
+            RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "]"}]}], 
+      SuperscriptBox["\[Xi]d", "2"]], "+", 
+     RowBox[{"\[Gamma]1", " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+          RowBox[{
+           SuperscriptBox["\[Theta]", 
+            TagBox[
+             RowBox[{"(", 
+              RowBox[{"0", ",", "1"}], ")"}],
+             Derivative],
+            MultilineFunction->None], "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"x", " ", 
+              RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+             RowBox[{"y", " ", 
+              RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+            RowBox[{
+             RowBox[{"y", " ", 
+              RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+             RowBox[{"x", " ", 
+              RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "+", 
+         RowBox[{
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+          RowBox[{
+           SuperscriptBox["\[Theta]", 
+            TagBox[
+             RowBox[{"(", 
+              RowBox[{"1", ",", "0"}], ")"}],
+             Derivative],
+            MultilineFunction->None], "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"x", " ", 
+              RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+             RowBox[{"y", " ", 
+              RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+            RowBox[{
+             RowBox[{"y", " ", 
+              RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+             RowBox[{"x", " ", 
+              RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}]}], ")"}], 
+       "2"]}]}], ")"}]}]}]], "Output",
+ CellChangeTimes->{{3.772881379359125*^9, 3.7728814273568*^9}, {
+   3.772881528550562*^9, 3.772881541126549*^9}, 3.772881653382173*^9, {
+   3.772881790732617*^9, 3.772881823150674*^9}, {3.772882687260127*^9, 
+   3.772882706914007*^9}, {3.772882747325287*^9, 3.772882761087962*^9}, 
+   3.772882809252447*^9, 3.772882914692498*^9, 3.7728829818725853`*^9, 
+   3.772884326957261*^9, 3.7728875934638844`*^9, 3.772887797349223*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Collect the \[Gamma]1 terms wth \[Gamma]2 vanishs:\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->16,
+  FontColor->RGBColor[1, 0, 0]]], "Print",
+ CellChangeTimes->{{3.7728813793565283`*^9, 3.772881427351969*^9}, {
+   3.772881528527733*^9, 3.7728815411224813`*^9}, 3.772881653377548*^9, {
+   3.772881790726809*^9, 3.77288182314615*^9}, {3.772882687255643*^9, 
+   3.772882706909569*^9}, {3.772882747320971*^9, 3.7728827610832453`*^9}, 
+   3.7728828092485027`*^9, 3.772882914687932*^9, 3.7728829818675528`*^9, 
+   3.772884326953376*^9, 3.772887593458454*^9, 3.772887797352827*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"Cos", "[", 
+      RowBox[{"2", " ", 
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"x", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+          RowBox[{"y", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+         RowBox[{
+          RowBox[{"y", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+          RowBox[{"x", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}]}], "]"}], "+", 
+     RowBox[{"2", " ", "\[Gamma]3", " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"x", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+          RowBox[{"y", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+         RowBox[{
+          RowBox[{"y", " ", 
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+          RowBox[{"x", " ", 
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "]"}]}]}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox["\[Xi]d", "2"]}]]}], "+", 
+  RowBox[{
+   FractionBox["1", "2"], " ", "\[Gamma]1", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox["\[Theta]", 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"0", ",", "1"}], ")"}],
+         Derivative],
+        MultilineFunction->None], "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", " ", 
+          RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+         RowBox[{"y", " ", 
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+        RowBox[{
+         RowBox[{"y", " ", 
+          RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+         RowBox[{"x", " ", 
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "2"], "+", 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox["\[Theta]", 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"1", ",", "0"}], ")"}],
+         Derivative],
+        MultilineFunction->None], "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", " ", 
+          RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "+", 
+         RowBox[{"y", " ", 
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}], ",", 
+        RowBox[{
+         RowBox[{"y", " ", 
+          RowBox[{"Cos", "[", "\[Phi]t", "]"}]}], "-", 
+         RowBox[{"x", " ", 
+          RowBox[{"Sin", "[", "\[Phi]t", "]"}]}]}]}], "]"}], "2"]}], 
+    ")"}]}]}]], "Output",
+ CellChangeTimes->{{3.772881379359125*^9, 3.7728814273568*^9}, {
+   3.772881528550562*^9, 3.772881541126549*^9}, 3.772881653382173*^9, {
+   3.772881790732617*^9, 3.772881823150674*^9}, {3.772882687260127*^9, 
+   3.772882706914007*^9}, {3.772882747325287*^9, 3.772882761087962*^9}, 
+   3.772882809252447*^9, 3.772882914692498*^9, 3.7728829818725853`*^9, 
+   3.772884326957261*^9, 3.7728875934638844`*^9, 3.772887797355297*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Collect the (\[Gamma]1+2\[Gamma]2) terms: Check How fPdB \
+reduces for Null-rotation \[Phi]t=0: The result actually is the fPdB without \
+\[Theta] ratation: \"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->16,
+  FontColor->RGBColor[1, 0, 0]]], "Print",
+ CellChangeTimes->{{3.7728813793565283`*^9, 3.772881427351969*^9}, {
+   3.772881528527733*^9, 3.7728815411224813`*^9}, 3.772881653377548*^9, {
+   3.772881790726809*^9, 3.77288182314615*^9}, {3.772882687255643*^9, 
+   3.772882706909569*^9}, {3.772882747320971*^9, 3.7728827610832453`*^9}, 
+   3.7728828092485027`*^9, 3.772882914687932*^9, 3.7728829818675528`*^9, 
+   3.772884326953376*^9, 3.772887593458454*^9, 3.7728877973584642`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"Cos", "[", 
+      RowBox[{"2", " ", 
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{"x", ",", "y"}], "]"}]}], "]"}], "+", 
+     RowBox[{"2", " ", "\[Gamma]3", " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"\[Theta]", "[", 
+        RowBox[{"x", ",", "y"}], "]"}], "]"}]}], "-", 
+     RowBox[{"\[Gamma]1", " ", 
+      SuperscriptBox["\[Xi]d", "2"], " ", 
+      SuperscriptBox[
+       RowBox[{
+        SuperscriptBox["\[Theta]", 
+         TagBox[
+          RowBox[{"(", 
+           RowBox[{"0", ",", "1"}], ")"}],
+          Derivative],
+         MultilineFunction->None], "[", 
+        RowBox[{"x", ",", "y"}], "]"}], "2"]}]}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox["\[Xi]d", "2"]}]]}], "+", 
+  RowBox[{
+   FractionBox["1", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{"\[Gamma]1", "+", 
+     RowBox[{"2", " ", "\[Gamma]2"}]}], ")"}], " ", 
+   SuperscriptBox[
+    RowBox[{
+     SuperscriptBox["\[Theta]", 
+      TagBox[
+       RowBox[{"(", 
+        RowBox[{"1", ",", "0"}], ")"}],
+       Derivative],
+      MultilineFunction->None], "[", 
+     RowBox[{"x", ",", "y"}], "]"}], "2"]}]}]], "Output",
+ CellChangeTimes->{{3.772881379359125*^9, 3.7728814273568*^9}, {
+   3.772881528550562*^9, 3.772881541126549*^9}, 3.772881653382173*^9, {
+   3.772881790732617*^9, 3.772881823150674*^9}, {3.772882687260127*^9, 
+   3.772882706914007*^9}, {3.772882747325287*^9, 3.772882761087962*^9}, 
+   3.772882809252447*^9, 3.772882914692498*^9, 3.7728829818725853`*^9, 
+   3.772884326957261*^9, 3.7728875934638844`*^9, 3.772887797360819*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{
+   "xp", ",", "yp", ",", "x", ",", "y", ",", "\[Phi]t", ",", "\[Theta]", ",", 
+    "\[Gamma]1", ",", "\[Gamma]2", ",", "\[Gamma]3", ",", "fPdB"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+   "\"\<The difference between fPdB(\[Theta]'(x,y)) and \
+fPdB(\[Theta](x',y')):\>\"", ",", "16", ",", "Red"}], "]"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Simplify", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Gamma]1", "+", 
+         RowBox[{"2", " ", "\[Gamma]2"}]}], ")"}], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+           RowBox[{"D", "[", 
+            RowBox[{
+             RowBox[{"\[Theta]", "[", 
+              RowBox[{"xp", ",", "yp"}], "]"}], ",", "yp"}], "]"}]}], "-", 
+          RowBox[{
+           RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+           RowBox[{"D", "[", 
+            RowBox[{
+             RowBox[{"\[Theta]", "[", 
+              RowBox[{"xp", ",", "yp"}], "]"}], ",", "xp"}], "]"}]}]}], ")"}],
+         "2"]}], "+", 
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox[
+           RowBox[{"Cos", "[", 
+            RowBox[{"2", " ", 
+             RowBox[{"\[Theta]", "[", 
+              RowBox[{"xp", ",", "yp"}], "]"}]}], "]"}], 
+           SuperscriptBox["\[Xi]d", "2"]]}], "-", 
+         FractionBox[
+          RowBox[{"2", " ", "\[Gamma]3", " ", 
+           RowBox[{"Sin", "[", 
+            RowBox[{"\[Theta]", "[", 
+             RowBox[{"xp", ",", "yp"}], "]"}], "]"}]}], 
+          SuperscriptBox["\[Xi]d", "2"]], "+", 
+         RowBox[{"\[Gamma]1", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+              RowBox[{"D", "[", 
+               RowBox[{
+                RowBox[{"\[Theta]", "[", 
+                 RowBox[{"xp", ",", "yp"}], "]"}], ",", "yp"}], "]"}]}], "+", 
+             
+             RowBox[{
+              RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+              RowBox[{"D", "[", 
+               RowBox[{
+                RowBox[{"\[Theta]", "[", 
+                 RowBox[{"xp", ",", "yp"}], "]"}], ",", "xp"}], "]"}]}]}], 
+            ")"}], "2"]}]}], ")"}]}]}], ")"}], "-", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Gamma]1", "+", 
+         RowBox[{"2", " ", "\[Gamma]2"}]}], ")"}], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"D", "[", 
+          RowBox[{
+           RowBox[{"\[Theta]", "[", 
+            RowBox[{"xp", ",", "yp"}], "]"}], ",", "xp"}], "]"}], ")"}], 
+        "2"]}], "+", 
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox[
+           RowBox[{"Cos", "[", 
+            RowBox[{"2", " ", 
+             RowBox[{"\[Theta]", "[", 
+              RowBox[{"xp", ",", "yp"}], "]"}]}], "]"}], 
+           SuperscriptBox["\[Xi]d", "2"]]}], "-", 
+         FractionBox[
+          RowBox[{"2", " ", "\[Gamma]3", " ", 
+           RowBox[{"Sin", "[", 
+            RowBox[{"\[Theta]", "[", 
+             RowBox[{"xp", ",", "yp"}], "]"}], "]"}]}], 
+          SuperscriptBox["\[Xi]d", "2"]], "+", 
+         RowBox[{"\[Gamma]1", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"D", "[", 
+             RowBox[{
+              RowBox[{"\[Theta]", "[", 
+               RowBox[{"xp", ",", "yp"}], "]"}], ",", "yp"}], "]"}], ")"}], 
+           "2"]}]}], ")"}]}]}], ")"}]}], ",", 
+   RowBox[{"Assumptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "x", ",", "y", ",", "\[Phi]t", ",", "\[Gamma]1", ",", "\[Gamma]2", 
+         ",", "\[Gamma]3"}], "}"}], "\[Element]", "Reals"}], "&&", 
+      RowBox[{"\[Gamma]1", ">", "0"}], "&&", 
+      RowBox[{"\[Gamma]2", ">", "0"}]}], "}"}]}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"%", "/.", 
+  RowBox[{"\[Phi]t", "\[Rule]", "0"}]}]}], "Input",
+ CellChangeTimes->{{3.77288781455765*^9, 3.772887819542403*^9}, {
+  3.772887853288756*^9, 3.772887888482563*^9}, {3.772887928452939*^9, 
+  3.772888066069231*^9}, {3.7728881201401043`*^9, 3.7728882198868723`*^9}, {
+  3.772888278173895*^9, 3.772888293785838*^9}}],
+
+Cell[BoxData[
+ StyleBox["\<\"The difference between fPdB(\[Theta]'(x,y)) and \
+fPdB(\[Theta](x',y')):\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->16,
+  FontColor->RGBColor[1, 0, 0]]], "Print",
+ CellChangeTimes->{3.772888190221136*^9, 3.7728882207230377`*^9, 
+  3.772888295840315*^9, 3.772888645283955*^9}],
+
+Cell[BoxData[
+ RowBox[{"\[Gamma]2", " ", 
+  RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox["\[Theta]", 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"0", ",", "1"}], ")"}],
+         Derivative],
+        MultilineFunction->None], "[", 
+       RowBox[{"xp", ",", "yp"}], "]"}], "2"]}], "-", 
+    RowBox[{"2", " ", 
+     RowBox[{"Cos", "[", "\[Phi]t", "]"}], " ", 
+     RowBox[{
+      SuperscriptBox["\[Theta]", 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"0", ",", "1"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "[", 
+      RowBox[{"xp", ",", "yp"}], "]"}], " ", 
+     RowBox[{
+      SuperscriptBox["\[Theta]", 
+       TagBox[
+        RowBox[{"(", 
+         RowBox[{"1", ",", "0"}], ")"}],
+        Derivative],
+       MultilineFunction->None], "[", 
+      RowBox[{"xp", ",", "yp"}], "]"}]}], "-", 
+    RowBox[{
+     RowBox[{"Sin", "[", "\[Phi]t", "]"}], " ", 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox["\[Theta]", 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"1", ",", "0"}], ")"}],
+         Derivative],
+        MultilineFunction->None], "[", 
+       RowBox[{"xp", ",", "yp"}], "]"}], "2"]}]}], ")"}]}]], "Output",
+ CellChangeTimes->{3.772888190401127*^9, 3.772888220725706*^9, 
+  3.772888295870447*^9, 3.772888645286449*^9}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.772888190401127*^9, 3.772888220725706*^9, 
+  3.772888295870447*^9, 3.772888645289414*^9}]
+}, Open  ]]
+},
+WindowSize->{1916, 1041},
+WindowMargins->{{0, Automatic}, {Automatic, 18}},
+Magnification:>2. Inherited,
+FrontEndVersion->"10.1 for Linux x86 (64-bit) (March 23, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 815, 23, 179, "Input"],
+Cell[1398, 47, 1229, 45, 62, "Output"],
+Cell[2630, 94, 1302, 47, 67, "Output"],
+Cell[3935, 143, 1229, 45, 62, "Output"],
+Cell[5167, 190, 1303, 47, 67, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6507, 242, 282, 8, 67, "Input"],
+Cell[6792, 252, 307, 10, 62, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7136, 267, 2727, 74, 493, "Input"],
+Cell[9866, 343, 511, 12, 112, "Print"],
+Cell[10380, 357, 3820, 114, 341, "Output"],
+Cell[14203, 473, 1966, 63, 201, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16206, 541, 6484, 168, 1124, "Input"],
+Cell[22693, 711, 897, 17, 112, "Print"],
+Cell[23593, 730, 4878, 136, 421, "Output"],
+Cell[28474, 868, 760, 15, 54, "Print"],
+Cell[29237, 885, 2322, 66, 201, "Output"],
+Cell[31562, 953, 732, 14, 54, "Print"],
+Cell[32297, 969, 4909, 138, 448, "Output"],
+Cell[37209, 1109, 741, 14, 54, "Print"],
+Cell[37953, 1125, 2937, 83, 198, "Output"],
+Cell[40893, 1210, 850, 16, 103, "Print"],
+Cell[41746, 1228, 1608, 45, 130, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43391, 1278, 4605, 129, 578, "Input"],
+Cell[47999, 1409, 443, 11, 54, "Print"],
+Cell[48445, 1422, 1442, 46, 96, "Output"],
+Cell[49890, 1470, 139, 2, 121, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
